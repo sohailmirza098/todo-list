@@ -1,16 +1,6 @@
 import React from 'react';
 
-import { Toolbar, AppBar, Typography, Button } from '@material-ui/core/'
-
-
-// const headerStyle = {
-//     background: '#333',
-//     color: '#fff',
-//     textAlign: 'center',
-//     padding: '10px'
-// }
-
-
+import { Toolbar, AppBar, Typography } from '@material-ui/core/'
 function Header() {
     return (
         <AppBar position="static">
@@ -20,10 +10,6 @@ function Header() {
             </Typography>
         </Toolbar>
         </AppBar>
-        // {/* <header style={headerStyle} > */}
-            // <h1>TodoList</h1>
-        // {/* </header> */}
-        // </AppBar>
     )
 }
 
