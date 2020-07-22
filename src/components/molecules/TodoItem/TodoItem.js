@@ -6,6 +6,7 @@ import RemoveButton from '../../atoms/RemoveButton/RemoveButton';
 export default function TodoItem(props) {
   
   const getStyle = () => {
+    console.log(props.todo);
     return {
       background: '#f4f4f4',
       padding: '10px',
@@ -14,15 +15,15 @@ export default function TodoItem(props) {
     }
   }
 
-  const {id, title} = props.todo;
+  // const {title} = props.todo;
 
   return (
-    <div style={getStyle()}>
-      <p>
-        <Checkbox markComplete={ props.markComplete } id={id} /> {' '}
-        { title }
-        <RemoveButton id={id} delTodo={ props.delTodo } />
-      </p>
+    
+    <div style={getStyle()} data-testid="todoid" >
+        <Checkbox markComplete={ props.markComplete } id={props.todo.id} />
+        { props.todo.title }
+        <RemoveButton id={props.todo.id} delTodo={ props.delTodo } value={'x'}/>
+
     </div>
   )
 }

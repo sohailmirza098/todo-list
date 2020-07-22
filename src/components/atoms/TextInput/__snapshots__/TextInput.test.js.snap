@@ -1,0 +1,16 @@
+exports[`Remove Button testing Matches the snapshot 1`] = `
+<input
+  autoComplete="off"
+  data-testid="texttodo"
+  name="title"
+  onChange={undefined}
+  placeholder="Add Todo..."
+  style={
+    Object {
+      "flex": "10",
+      "padding": "5px",
+    }
+  }
+  type="text"
+  value={undefined} />
+`;

@@ -1,0 +1,25 @@
+exports[`AddTodo testing Matches the snapshot 1`] = `
+<form
+  data-testid="addtodoid"
+  onSubmit={[Function]}
+  style={
+    Object {
+      "display": "flex",
+    }
+  }>
+  <input
+    autoComplete="off"
+    data-testid="texttodo"
+    name="title"
+    onChange={[Function]}
+    placeholder="Add Todo..."
+    style={
+      Object {
+        "flex": "10",
+        "padding": "5px",
+      }
+    }
+    type="text"
+    value="" />
+</form>
+`;

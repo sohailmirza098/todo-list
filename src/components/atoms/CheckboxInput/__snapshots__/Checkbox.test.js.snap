@@ -1,0 +1,5 @@
+exports[`Checkbox testing Matches the snapshot 1`] = `
+<input
+  onChange={[Function]}
+  type="checkbox" />
+`;

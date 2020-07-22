@@ -1,0 +1,13 @@
+exports[`Header testing Matches the snapshot 1`] = `
+<header
+  className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
+  data-testid="headerid">
+  <div
+    className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters">
+    <h1
+      className="MuiTypography-root MuiTypography-h1">
+      TodoList
+    </h1>
+  </div>
+</header>
+`;

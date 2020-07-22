@@ -1,0 +1,32 @@
+exports[`Todos testing Matches the snapshot 1`] = `
+<div
+  data-testid="todoid"
+  style={
+    Object {
+      "background": "#f4f4f4",
+      "borderBottom": "1px #ccc dotted",
+      "padding": "10px",
+      "textDecoration": "none",
+    }
+  }>
+  <input
+    onChange={[Function]}
+    type="checkbox" />
+  title
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#ff0000",
+        "border": "none",
+        "borderRadius": "50%",
+        "color": "#fff",
+        "cursor": "pointer",
+        "float": "right",
+        "padding": "5px 9px",
+      }
+    }>
+    x
+  </button>
+</div>
+`;

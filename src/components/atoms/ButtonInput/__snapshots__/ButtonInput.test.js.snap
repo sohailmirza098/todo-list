@@ -1,0 +1,12 @@
+exports[`Input Button testing Matches the snapshot 1`] = `
+<input
+  className="btn"
+  data-testid="submittask"
+  style={
+    Object {
+      "flex": "1",
+    }
+  }
+  type="submit"
+  value="Submit" />
+`;

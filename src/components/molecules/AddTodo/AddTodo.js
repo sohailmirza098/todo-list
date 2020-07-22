@@ -12,7 +12,7 @@ export default function AddTodo(props) {
     }
 
     return (
-        <form style={{display:'flex'}} onSubmit={ onSubmit }>
+        <form data-testid="addtodoid" style={{display:'flex'}} onSubmit={ onSubmit }>
             <TextInput title={title} onChange={(e) => setTitle(e.target.value)}  />
         </form>
     )

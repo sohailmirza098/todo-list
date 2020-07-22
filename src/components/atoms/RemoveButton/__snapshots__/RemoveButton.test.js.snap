@@ -1,0 +1,17 @@
+exports[`Remove Button testing Matches the snapshot 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "background": "#ff0000",
+      "border": "none",
+      "borderRadius": "50%",
+      "color": "#fff",
+      "cursor": "pointer",
+      "float": "right",
+      "padding": "5px 9px",
+    }
+  }>
+  x
+</button>
+`;

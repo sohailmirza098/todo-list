@@ -1,8 +1,10 @@
-import React, {useState, useEffect} from 'react';
-import Todos from "./components/organisms/Todos";
+import React, {useState, useEffect, useContext} from 'react';
+import Todos from "./components/organisms/Todos/Todos";
 import Header from './components/molecules/Header/Header';
 import AddTodo from './components/molecules/AddTodo/AddTodo';
 import Container from '@material-ui/core/Container';
+// import { TodoContext } from './components/TodoContext'
+
 
 import "./App.css";
 
@@ -17,7 +19,6 @@ export default function App() {
       .then((res) => { return res.json() })
       .then((data) => { 
         setTodos(data);
-        // console.log(data);
       })
   }, []);
 
@@ -31,6 +32,7 @@ export default function App() {
   }
 
   const delTodo = (id) => {
+    console.log('clicked');
     setTodos([...todos.filter(todo => todo.id !== id)]);
   }
 
